@@ -7,7 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class HttpUitl {
-	public static void sendHttpReques(final String address,
+	public static void sendHttpRequest(final String address,
 			final HttpCallbackListener listener) {
 		new Thread(new Runnable(){
 			@Override
